@@ -114,8 +114,8 @@ section {
 }
 .bottom-border {
   border-bottom: 4px solid #dccece;
-  margin: 10px 20px;
-  width: 65%;
+  margin: 10px 0px;
+  width: 75%;
 }
 h1,
 h2,
@@ -166,14 +166,14 @@ h1 strong {
 
 .text-boxed p {
   margin-bottom: 56px;
+  font-family: "Zen Old Mincho", Sans-serif;
 }
 .text-boxed p strong {
   text-align: left;
   color: #ffffff;
   font-family: "Zen Maru Gothic", Sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 33px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .btn {
@@ -198,11 +198,11 @@ img {
   /* width: 80%; */
   /* margin: 50px 0; */
 }
-.heading-title {
+/* .heading-title {
   font-family: "Zen Old Mincho", Sans-serif;
   font-size: 29px;
   margin: 0 18px;
-}
+} */
 .color-yellow {
   color: #e3800d;
 }
@@ -306,11 +306,11 @@ ul li p ::before {
 }
 .team-container .team-card .team-description {
   text-align: center;
-  padding: 20px 0 56px 0;
+  padding: 12px 15px;
 }
 .team-container .team-card .team-description p {
-  font-size: 14px;
-  line-height: 2;
+  font-size: 15px;
+  line-height: 1.7;
   font-family: "Zen Old Mincho", Sans-serif;
 }
 
