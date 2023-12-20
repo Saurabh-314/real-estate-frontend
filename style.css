@@ -1,0 +1,570 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "General Sans";
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100px;
+}
+#outer-wrap {
+  background-color: #1a1919;
+  width: 100%;
+  /* padding: 20px; */
+}
+section {
+  /* padding: 10px 50px; */
+}
+
+/* navbar style start */
+
+.navbar-section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #dadada;
+}
+.nav {
+  height: 70px;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0);
+}
+.nav-part {
+  display: flex;
+  gap: 4vw;
+}
+.nav h2 {
+  padding: 25px 60px;
+  height: 70px;
+}
+.nav h2 img {
+  width: 200px;
+  height: 40px;
+}
+.nav .nav-part h4 {
+  font-size: 1.2vw;
+  color: #fff;
+  margin: 0px;
+}
+.nav .nav-part h4:hover {
+  cursor: pointer;
+  color: #e3800d;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+.nav .nav-part i {
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 700;
+  display: none;
+}
+.navbar-section .nav-content {
+  height: calc(100% - 100px);
+  width: 100%;
+  background-color: burlywood;
+}
+.left {
+  height: 100%;
+  width: 50%;
+  background-color: crimson;
+}
+.right {
+  height: 100%;
+  width: 50%;
+  background-color: royalblue;
+}
+.navbar-section .nav-mobile {
+  display: none;
+}
+
+/* navbar style end */
+
+.home-section {
+  padding: 4%;
+}
+
+.text-color-white {
+  color: #fff;
+}
+.row {
+  display: flex;
+}
+.text-boxed {
+  width: 55%;
+  padding: 25px 100px 0px 16px;
+}
+.image-boxed {
+  width: 45%;
+}
+.heading-title {
+  color: #ffffff;
+  font-family: "Zen Old Mincho", Sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  font-style: italic;
+}
+.heading-title strong {
+  color: #e3800d;
+}
+.bottom-border {
+  border-bottom: 4px solid #dccece;
+  margin: 10px 20px;
+  width: 65%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #333;
+  line-height: 1.4;
+}
+h1 {
+  font-size: 23px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 17px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 14px;
+}
+p {
+  margin: 0 0 20px;
+  color: #fff;
+  font-size: 20px;
+}
+strong {
+  font-weight: 600;
+}
+h1 strong {
+  color: #dccece;
+  font-family: "Zen Old Mincho", Sans-serif;
+}
+
+.text-boxed p {
+  margin-bottom: 56px;
+}
+.text-boxed p strong {
+  text-align: left;
+  color: #ffffff;
+  font-family: "Zen Maru Gothic", Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.btn {
+  margin: 20px;
+  height: 60px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Zen Old Mincho", Sans-serif;
+  font-size: 35px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #e3800d 0%, #e3800d 100%);
+}
+/* service section start */
+.service-section {
+  padding: 4%;
+}
+img {
+  height: 500px;
+  /* width: 80%; */
+  /* margin: 50px 0; */
+}
+.heading-title {
+  font-family: "Zen Old Mincho", Sans-serif;
+  font-size: 29px;
+  margin: 0 18px;
+}
+.color-yellow {
+  color: #e3800d;
+}
+.bullet-point {
+  width: 100%;
+}
+ul li {
+  list-style-type: none;
+}
+ul li p ::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: inline-block;
+  background-color: #fff;
+}
+/* service section end */
+
+/* project section start */
+
+.project-section {
+  padding: 4%;
+}
+.project-container {
+}
+.section-heading {
+}
+.project {
+  width: 100%;
+  display: flex;
+}
+.project-details {
+  color: #dccece;
+  flex: 1;
+  padding: 39px 0 0 70px;
+  line-height: 1.6;
+}
+.project-details h2 {
+  color: #dccece;
+  font-family: "Zen Old Mincho", Sans-serif;
+}
+.project-details h3 {
+  color: #dccece;
+  font-family: "Zen Old Mincho", Sans-serif;
+}
+.projects-image {
+  width: 45%;
+}
+.image-frame {
+  max-width: 500px;
+  max-height: 400px;
+  overflow: hidden;
+}
+.image-frame img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+/* project section end */
+
+/* team section start */
+.people-section {
+  padding: 4%;
+}
+
+.section-description {
+  padding: 40px;
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.team-container .team-card {
+  padding: 20px;
+}
+.team-container .team-card .team-image {
+  text-align: center;
+}
+.team-container .team-card .team-image img {
+  height: 300px;
+}
+.team-container .team-card .team-name {
+  text-align: center;
+}
+.team-container .team-card .team-name h1 {
+  color: #dccece;
+}
+.team-container .team-card .team-designation h3 {
+  color: #dccece;
+  font-size: 18px;
+  font-family: "Zen Old Mincho", Sans-serif;
+}
+.team-container .team-card .team-designation {
+  text-align: center;
+}
+.team-container .team-card .team-description {
+  text-align: center;
+  padding: 20px 0 56px 0;
+}
+.team-container .team-card .team-description p {
+  font-size: 14px;
+  line-height: 2;
+  font-family: "Zen Old Mincho", Sans-serif;
+}
+
+/* team section end */
+
+/* contact section start */
+
+.contact-section {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://brandxrealty.com/wp-content/uploads/2022/04/oceanwp-architect-image-017.jpg");
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.contact-section .contact-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section .contact-container .contact-box {
+  background-color: rgb(12 9 9 / 16%);
+  font-style: italic;
+  padding: 30px;
+  /* width: 80%; */
+}
+
+.contact-section .contact-container .contact-box .contact-heading h1 {
+  border-bottom: 1px solid black;
+}
+.contact-section .contact-container .contact-box .contact-mail {
+}
+/* .contact-section .contact-container .contact-box .contact-mail p {
+  color: #000;
+}
+.contact-section .contact-container .contact-box .contact-mail p a {
+  color: #000;
+  text-decoration: none;
+} */
+/* .contact-section .contact-container .contact-box .contact-mail p a :hover {
+  cursor: pointer;
+  color: #4154bd;
+} */
+
+.contact-section .contact-container .contact-box .contact-number {
+}
+/* .contact-section .contact-container .contact-box .contact-number p {
+  color: #000;
+}
+.contact-section .contact-container .contact-box .contact-number p a {
+  color: #000;
+  text-decoration: none;
+} */
+/* .contact-section .contact-container .contact-box .contact-number p a :hover {
+  cursor: pointer;
+} */
+.df {
+  display: flex;
+  align-items: center;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+a {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+a:hover {
+  color: #4154bd;
+}
+.contact-section .contact-container .contact-box .contact-box .contact-address {
+}
+.contact-section .contact-container .contact-box .contact-address p {
+  color: #000;
+}
+
+/* contact section end */
+
+/* mobile responsive */
+
+@media (max-width: 600px) {
+  .nav {
+    padding: 0 5vw;
+    height: 50px;
+  }
+  .nav h2 {
+    padding: 0px;
+    height: 50px;
+  }
+  .nav h2 img {
+    height: 50px;
+    width: 200px;
+    margin: 11px 10px;
+    padding: 10px;
+  }
+  .nav h4 {
+    font-size: 2vw;
+    display: none;
+  }
+  .nav .nav-part i {
+    display: block;
+    font-size: 5vw;
+  }
+  .nav .nav-part i:hover {
+    cursor: pointer;
+  }
+
+  /* mobile nav style start */
+
+  .nav-mobile {
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    top: 0px;
+    padding: 10px;
+    background-color: #fff;
+    /* display: none; */
+    transition: all 3s ease-in-out;
+  }
+  .nav-mobile h2 {
+    width: 100%;
+    height: 50px;
+  }
+  .nav-mobile h2 img {
+    height: 40px;
+  }
+  .nav-mobile .nav-part {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .nav-mobile .nav-part h4 {
+    line-height: 1.2;
+    padding: 1px 10px;
+    cursor: pointer;
+    margin: 0;
+    font-size: 16px;
+  }
+  .nav-mobile .nav-part h4:hover {
+    background-color: #8b6f754a;
+  }
+  .nav-mobile .nav-part i {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  /* mobile nav style end */
+
+  .row {
+    flex-direction: column;
+  }
+  .row .text-boxed {
+    width: 100%;
+    padding: 20px;
+  }
+  .row .text-boxed .heading-title {
+    font-size: 20px;
+  }
+  .row .text-boxed .bottom-border {
+    width: 100%;
+    margin: 0px;
+  }
+  .row .text-boxed h1 strong {
+    font-size: 20px;
+    margin: 10px 10px;
+  }
+  .row .text-boxed .btn {
+    height: 40px;
+    width: 140px;
+    font-size: 21px;
+  }
+
+  /* hero section end */
+
+  /* service section start */
+  .service-section {
+    padding: 4%;
+  }
+  .row .image-boxed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .row .image-boxed img {
+    height: 350px;
+    width: 400px;
+  }
+
+  .text-boxed .bullet-point {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .text-boxed .bullet-point ul li p {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .section-heading .heading-title {
+    font-size: 20px;
+  }
+
+  .project-container .section-heading .bottom-border {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .project-container .project {
+    flex-direction: column;
+  }
+  .project-container .project .project-details {
+    padding: 0;
+  }
+  .project-container .project .projects-image {
+    width: 100%;
+  }
+  .project-container .project .projects-image .image-frame img {
+    height: 300px;
+    width: 400px;
+  }
+  /* project section end */
+
+  /* people section start */
+  .people-section .project-container .section-description {
+    padding: 10px 6px;
+  }
+  .people-section .project-container .section-description p {
+    font-size: 16px;
+  }
+  .people-section .project-container .team-container {
+    max-width: 1000px;
+    overflow: auto;
+    overflow-y: hidden;
+    margin: 0 auto;
+  }
+  .people-section .project-container .team-container .team-card {
+    margin: 0 24px;
+  }
+  /* people section end */
+
+  /* contact section start */
+  .contact-section .contact-container {
+    width: 100%;
+    background-color: #ffffffa4;
+  }
+  .contact-section .contact-container .contact-box {
+    margin: 10px;
+  }
+}
